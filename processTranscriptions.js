@@ -162,5 +162,5 @@ function processTranscription(lines) {
 }
 
 const myTranscription = `add a transcription here that has been transcribed by word online`
-let lines = r2v2.split('\n');
+let lines = myTranscription.split('\n');
 processTranscription(myTranscription);
